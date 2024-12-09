@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+
+    #menu-burguer {
+        display: none;
+    }
+
+    nav {
+        display: block !important; 
+    }
+
+    #ul-flex {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    nav > ul > li {
+        display: inline-block;
+        width: 150px;
+    }
+}

@@ -14,17 +14,42 @@
 
     header {
         background-color: #221D23;
+        width: 100vw;
+        position: fixed;
+        z-index: 100;
+    }
+    
+    .carousel-inner {
+        margin-top: 120px;
+       
+    }
+
+    .carousel-inner img {
+        object-fit: cover;
+    }
+
+    .carousel-caption {
+        transform: translateY(20%);
     }
 
     header h1 {
         text-align: center;  
         padding: 10px;
         color: #F2FBE0;
+        font-family: "Arsenal", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2.5em;
+        text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.321);
     }
 
 
     nav {
         display: none;
+        font-family: "Arsenal", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.036);
     }
 
     nav > ul > li > a {
@@ -35,6 +60,8 @@
         color: #F2FBE0;
         text-align:center;
         border: 2px solid rgba(0, 0, 0, 0.226);
+        border-radius: 3px;
+        transition: 0.4s;
     }
 
     nav > ul {
@@ -43,12 +70,14 @@
     }
 
     nav a:hover {
-        background-color: rgb(252, 127, 148);
+        background-color: #f2fbe0d3;
+        color: #221D23;
     }
+     
 
     #menu-burguer {
         background-color: #221D23;
-        color: #F2FBE0;;
+        color: #F2FBE0;
         display: block;
         padding: 10px;
         text-align: center;
@@ -57,8 +86,7 @@
 
     main {
         background-color: #F2FBE0;
-        margin: auto;
         width: 100vw;
-        padding: 10px;
         height: 100vh;
+        overflow-x: hidden;
     }

@@ -9,7 +9,6 @@
 
     body {
         background-color: black;
-    
     }
 
     header {
@@ -17,20 +16,6 @@
         width: 100vw;
         position: fixed;
         z-index: 100;
-    }
-    
-    .carousel-inner {
-        margin-top: 120px;
-    }
-
-
-    .carousel-inner img {
-        object-fit: cover;
-    }
-
-    .carousel-caption {
-        transform: translateY(20%);
-        text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.158);
     }
 
     header h1 {
@@ -43,7 +28,6 @@
         font-size: 2.5em;
         text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.321);
     }
-
 
     nav {
         display: none;
@@ -95,8 +79,21 @@
         font-style: normal;
     }
 
+    .carousel-inner {
+        margin-top: 120px;
+    }
+
+
+    .carousel-inner img {
+        object-fit: cover;
+    }
+
+    .carousel-caption {
+        transform: translateY(20%);
+        text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.158);
+    }
+
     .catalogo {
-     
         padding: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -106,14 +103,19 @@
         gap: 10px;
     }
 
+
     .item {
         background-color: #fff;
         width: 216px;
         height: 305px;
         cursor: pointer;
         box-shadow: 3px  3px 3px rgba(0, 0, 0, 0.055);
+        opacity: 0.85;
     }
-
+ 
+    .item:hover {
+        opacity: 1;
+    }
     .item img {
         width: 216px;
         height: 216px;
@@ -148,3 +150,6 @@
         align-self: center;
         font-size: 1.2em;
     }
+
+     
+    

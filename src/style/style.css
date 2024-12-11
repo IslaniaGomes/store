@@ -89,4 +89,56 @@
         width: 100vw;
         height: 100vh;
         overflow-x: hidden;
+        font-family: "Arsenal", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .catalogo {
+     
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .item {
+        background-color: #fff;
+        width: 216px;
+        height: 305px;
+        cursor: pointer;
+    }
+
+    .item img {
+        width: 216px;
+        height: 216px;
+        object-fit: cover;
+    }
+
+    .item p {
+        padding: 8px;
+        text-align: center;
+        
+    }
+
+    .catalog-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 50px;
+        background-color: #DA2C38;
+        border-radius: 5px;    
+        color: #fff;    
+    }
+
+    .catalog-text  p {
+        align-self: center;
+        font-size: 1.2em;
     }

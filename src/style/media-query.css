@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 375px) {
 
-    .carousel-caption h5{
+    .carousel-caption h5 {
        font-size: 2em;
     }
 
@@ -102,11 +102,29 @@
         transform:translateY(-80%) ;
     }
 
-    .carousel-caption h5{
+    .carousel-caption h5 {
         font-size: 3em;
     }
  
     .carousel-caption p {
         font-size: 1.7em;
+    }
+
+
+    .catalog-text > h1 {
+       width:800px ; 
+    }
+
+    .catalog-text > p {
+        width:800px; 
+     }
+
+    
+    .item {
+        background-color: #fff;
+        width: 216px;
+        height: 305px;
+        cursor: pointer;
+        
     }
 }

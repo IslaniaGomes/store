@@ -26,30 +26,3 @@ function openLightbox(imageSrc) {
   
   
  
-  let slideIndex = 0;
-  
- 
-  function showSlide(n) {
-    slideIndex = n;   
-    displaySlide();
-  }
-  
- 
-  function plusSlides(n) {
-    slideIndex += n;
-    displaySlide();  
-  }
-  
-  function displaySlide() {
-  
- 
-    let slides = document.getElementsByClassName('lightbox-slide');  
-  
-   
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";   
-    }
-  
-   
-    slides[slideIndex].style.display = "block";  
-  }

@@ -12,6 +12,19 @@
     }
 }
 
+@media screen and (min-width: 475px) {
+
+    .lightbox-content {
+        width: 450px;
+        height: 400px;
+    }
+
+    .close {
+        top: 50px;
+        right: 50px;
+    }
+}
+
 
 @media screen and (min-width: 992px) {
 
@@ -110,7 +123,6 @@
         font-size: 1.7em;
     }
 
-
     .catalog-text > h1 {
        width:800px ; 
     }
@@ -125,6 +137,14 @@
         width: 216px;
         height: 305px;
         cursor: pointer;
-        
+    }
+
+    .lightbox-content {
+        width: 500px;
+    }
+
+    .close {
+        top: 50px;
+        right: 50px;
     }
 }

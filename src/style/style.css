@@ -30,6 +30,10 @@
         text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.321);
     }
 
+    .duration-animate {
+        animation-duration: 2s;
+    }
+
     nav {
         display: none;
         font-family: "Arsenal", sans-serif;

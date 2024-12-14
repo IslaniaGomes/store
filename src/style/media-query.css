@@ -23,6 +23,26 @@
         top: 50px;
         right: 50px;
     }
+
+    .informacoes > .info-box {
+        padding: 20px;
+        align-content: start;
+    }
+
+    .info-box h5 {
+        margin-left: 30px;
+        padding-bottom: 0px;
+    }
+    
+    .info-box img {
+        margin-top: 20px;
+    }
+
+    #contato {
+        padding-bottom: 0px;
+        padding-left: 40px;
+    }
+
 }
 
 
@@ -80,7 +100,6 @@
         transform: translateX(0); 
     }
 
-
     #menu-burguer {
         display: none;
     }
@@ -129,9 +148,8 @@
 
     .catalog-text > p {
         width:800px; 
-     }
+    }
 
-    
     .item {
         background-color: #fff;
         width: 216px;
@@ -146,5 +164,39 @@
     .close {
         top: 50px;
         right: 50px;
+    }
+
+    .informacoes > .info-box {
+        height: 300px;
+        padding: 20px 10px 10px 0px;
+        align-content: start;
+    }
+
+    .info-box > h5 {
+        margin-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    .info-box img {
+        width: 250px;
+    }
+  
+    .info-box img {
+        margin-top: 20px;
+    }
+
+    #contato {
+        padding: 20px 10px 10px 0px;
+    }
+
+    #contato img {
+        width: 45px;
+        height: 45px;
+        margin-left: 0px;
+    }
+
+    #contato > h5 {
+        margin-left: 0px;
+        padding: 0px 0px 20px;
     }
 }

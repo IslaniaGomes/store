@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
     * {
         margin: 0;
         padding: 0;
@@ -71,7 +72,6 @@
     main {
         background-color: #F2FBE0;
         width: 100vw;
-        height: 100vh;
         overflow-x: hidden;
         font-family: "Arsenal", sans-serif;
         font-weight: 400;
@@ -124,6 +124,7 @@
         align-items: center;
         gap: 10px;
         margin-top: 120px;
+        margin-bottom: 150px;
     }
 
 
@@ -151,7 +152,6 @@
         
     }
 
-    
     .lightbox {
         display: none; 
         position: fixed;
@@ -195,6 +195,66 @@
         padding: 10px;
     }
 
+    .informacoes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #161216;
+    }
+
+    .informacoes > .info-box {
+        text-align: left;
+        width: 300px;
+        height: 200px;
+        color: #fff;
+        list-style: none;
+        padding: 20px;
+        align-content: center;
+    }
+
+    .info-box > h5 {
+        margin-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    .info-box img {
+        width: 250px;
+    }
+    
+    .info-box ul, img {
+        cursor: pointer;
+    }
+    
+    .info-box img {
+        margin-top: 20px;
+    }
+
+    #contato img {
+        width: 35px;
+        height: 35px;
+        margin-left: 20px;
+    }
+
+    #contato > h5 {
+        margin-left: 30px;
+    }
+
+    footer {
+        background-color: #161216;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #F2FBE0;
+    }
+ 
+
+   
   
   
      

@@ -8,21 +8,16 @@ function clickBurguer() {
     }
 }
 
-
-
 function openLightbox(imageSrc) {
-
-    
     document.getElementById('lightbox').style.display = 'block';
     document.getElementById('lightbox-image').src = imageSrc;
-  }
+}
   
  
-  function closeLightbox() {
+function closeLightbox() {
+   document.getElementById('lightbox').style.display = 'none';
   
-    document.getElementById('lightbox').style.display = 'none';
-  
-  }
+}
   
   
  
